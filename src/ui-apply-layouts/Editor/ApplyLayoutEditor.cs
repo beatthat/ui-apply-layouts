@@ -4,7 +4,9 @@ using UnityEditor;
 namespace BeatThat
 {
 
-	public static class ApplyLayoutEditor : UnityEditor.Editor
+	// Analysis disable ConvertToStaticType
+	public class ApplyLayoutEditor : UnityEditor.Editor
+	// Analysis restore ConvertToStaticType
 	{
 		[MenuItem("GameObject/UI/Ape - Layout - Apply (recursively)")]
 		public static void ApplyRecursive(MenuCommand cmd)
