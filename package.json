@@ -1,7 +1,7 @@
 {
   "name": "ui-apply-layouts",
   "scope": "beatthat",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "for complex/transitioning layouts, provides menu options to switch to different layout states in the Unity editor.",
   "main": "index.js",
   "repository": {
