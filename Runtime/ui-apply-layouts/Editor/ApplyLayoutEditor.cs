@@ -1,14 +1,14 @@
-﻿using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
-namespace BeatThat
+namespace BeatThat.UIApplyLayouts
 {
 
-	// Analysis disable ConvertToStaticType
-	public class ApplyLayoutEditor : UnityEditor.Editor
+    // Analysis disable ConvertToStaticType
+    public class ApplyLayoutEditor : UnityEditor.Editor
 	// Analysis restore ConvertToStaticType
 	{
-		[MenuItem("GameObject/UI/Ape - Layout - Apply (recursively)")]
+		[MenuItem("GameObject/UI/BeatThat - Layout - Apply (recursively)")]
 		public static void ApplyRecursive(MenuCommand cmd)
 		{
 			var go = cmd.context as GameObject;
